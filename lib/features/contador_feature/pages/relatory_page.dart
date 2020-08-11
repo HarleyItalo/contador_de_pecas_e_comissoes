@@ -68,7 +68,7 @@ class _RelatoryPageState extends State<RelatoryPage> {
                     RelatoryCard(
                       icon: Icons.monetization_on,
                       quantity:
-                          "R\$ ${NumberUtil.money(counterStore.valueOfMonth * comissionStore.comission)}",
+                          "R\$ ${NumberUtil.money(counterStore.valueOfWeek * comissionStore.comission)}",
                       title: "Comissão da semana",
                       color: Colors.redAccent,
                     ),
